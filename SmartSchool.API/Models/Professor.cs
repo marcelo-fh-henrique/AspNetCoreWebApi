@@ -7,6 +7,8 @@ namespace SmartSchool.API.Models
 {
     public class Professor
     {
+        public Professor() { }
+
         public Professor(int id, string nome)
         {
             Id = id;
