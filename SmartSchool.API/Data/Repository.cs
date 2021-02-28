@@ -47,7 +47,7 @@ namespace SmartSchool.API.Data
                              .ThenInclude(d => d.Professor);
             }
 
-            query = query.AsNoTracking().OrderBy(a => a.ID);
+            query = query.AsNoTracking().OrderBy(a => a.Id);
 
             return query.ToArray();
         }
@@ -64,8 +64,8 @@ namespace SmartSchool.API.Data
             }
 
             query = query.AsNoTracking()
-                         .OrderBy(a => a.ID)
-                         .Where(aluno => aluno.AlunosDisciplinas.Any(ad => ad.DisciplinaID == disciplinaId));
+                         .OrderBy(a => a.Id)
+                         .Where(aluno => aluno.AlunosDisciplinas.Any(ad => ad.DisciplinaId == disciplinaId));
 
             return query.ToArray();
         }
@@ -82,8 +82,8 @@ namespace SmartSchool.API.Data
             }
 
             query = query.AsNoTracking()
-                         .OrderBy(a => a.ID)
-                         .Where(aluno => aluno.ID == alunoId);
+                         .OrderBy(a => a.Id)
+                         .Where(aluno => aluno.Id == alunoId);
 
             return query.FirstOrDefault();
         }
@@ -118,7 +118,7 @@ namespace SmartSchool.API.Data
             query = query.AsNoTracking()
                          .OrderBy(aluno => aluno.Id)
                          .Where(aluno => aluno.Disciplinas.Any(
-                             d => d.AlunosDisciplinas.Any(ad => ad.DisciplinaID == disciplinaId)
+                             d => d.AlunosDisciplinas.Any(ad => ad.DisciplinaId == disciplinaId)
                          ));
 
             return query.ToArray();
