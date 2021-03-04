@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartSchool.API.Data;
-using SmartSchool.API.Dtos;
+using SmartSchool.API.V2.Dtos;
 using SmartSchool.API.Models;
 using System;
 using System.Collections.Generic;
@@ -11,9 +11,10 @@ using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace SmartSchool.API.Controllers
+namespace SmartSchool.API.V2.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class AlunoController : ControllerBase
     {
@@ -26,6 +27,10 @@ namespace SmartSchool.API.Controllers
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Método responsável para retornar todos os meus alunos
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -34,6 +39,11 @@ namespace SmartSchool.API.Controllers
             return Ok(_mapper.Map<IEnumerable<AlunoDto>>(alunos));
         }
 
+        /// <summary>
+        /// Método responsável por retornar apenas um aluno por meio do código ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {

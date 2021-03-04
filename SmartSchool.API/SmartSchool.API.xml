@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartSchool.API</name>
+    </assembly>
+    <members>
+        <member name="T:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_INJECAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_PRODUCAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_INJECAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_MOV_GAS">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_MOV_AGUA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_QUEIMA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_TRANSFERENCIA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInformacaoComplementarPapCampoType.DSC_INFO_COMPL_POCOS">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemInjecaoCampoPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.ANO_INJECAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.MES_INJECAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_AGUA_INJ_RECUP_SECUND">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_AGUA_INJ_DESCARTE">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_GAS_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_GAS_ESTOCAGEM">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_CO2_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_N2_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_VAPOR_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_POLIMEROS_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_OUTROS_INJETADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoCampoPapCampoType.VOL_SOLVENTE_INJETADO">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.COD_ZONA_INJECAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.COD_UEP_INJECAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.COD_UEP_INJECAO_NOVA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.ANO_INJECAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.MES_INJECAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_AGUA_INJ_RECUP_SECUND_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_AGUA_INJ_DESCARTE_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_GAS_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_GAS_ESTOCAGEM_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_CO2_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_N2_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_VAPOR_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_POLIMEROS_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_OUTROS_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemInjecaoZonaUepPapCampoType.VOL_SOLVENTE_INJETADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemListaInformacoesComplementaresPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemListaInformacoesComplementaresPapCampoType.INFORMACAO_COMPLEMENTAR">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemMovimentacaoPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.MES_MOVIMENTACAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_RECEBIDO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_CONSUMIDO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_QUEIMADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_LIFT">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_TRANSFERIDO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_GAS_DISPONIBILIZADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_AGUA_RECEBIDA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_AGUA_CAPTADA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_AGUA_DESCARTADA_SUPERFICIE">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_AGUA_TRANSFERIDA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_SEGURANCA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_LIMITACAO_OPERACIONAL">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_PARADA_PROGRAMADA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_VENTILADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_COMISSIONAMENTO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_TESTE_POCO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemMovimentacaoPapCampoType.VOL_QUEIMA_OUTROS">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemPAPCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.IDENTIFICADOR_EXTERNO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.CODIGO_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.ANO_REFERENCIA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.MOTIVO_REVISAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.PRODUCOES_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.INJECOES_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.PRODUCOES_ZONA_UEP">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.INJECOES_ZONA_UEP">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.MOVIMENTACOES">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.QUEIMADORES">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.TRANSFERENCIAS">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.POCOS_CURVA_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPAPCampoType.INFORMACOES_COMPLEMENTARES">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.IND_POCO_NOVO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.COD_CADASTRO_POCO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.NOME_OPERADOR">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.IND_PRODUTOR_INJETOR">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.DAT_INICIO_OPERACAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.DAT_PREVISAO_RETORNO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.COD_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.COD_UEP_POCO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemPocoCurvaProducaoPapCampoType.COD_UEP_POCO_NOVA">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemProducaoCampoPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.ANO_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.MES_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.VOL_PRODUCAO_OLEO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.VOL_PRODUCAO_CONDENSADO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.VOL_PRODUCAO_GAS_ASSOC">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.VOL_PRODUCAO_GAS_NAO_ASSOC">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.VOL_PRODUCAO_AGUA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.PRODUCAO_CO2">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.PRODUCAO_H2S">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoCampoPapCampoType.PRODUCAO_N2">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.COD_ZONA_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.COD_UEP_PRODUCAO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.COD_UEP_PRODUCAO_NOVA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.ANO_PRODUCAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.MES_PRODUCAO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.VOL_PRODUCAO_OLEO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.VOL_PRODUCAO_CONDENSADO_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.VOL_PRODUCAO_GAS_ASSOC_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.VOL_PRODUCAO_GAS_NAO_ASSOC_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.VOL_PRODUCAO_AGUA_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.PRODUCAO_CO2_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.PRODUCAO_H2S_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.PRODUCAO_N2_ZONA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemProducaoZonaUepPapCampoType.PRESSAO_MEDIA_ZONA">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemQueimadorPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemQueimadorPapCampoType.COD_PILOTO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemQueimadorPapCampoType.QTD_PILOTO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemQueimadorPapCampoType.DSC_LOCAL_QUEIMA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemQueimadorPapCampoType.VOL_QUEIMA_PILOTO">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.itemTransferenciaPapCampoType">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.MES_TRANSFERENCIA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.ORIGEM_DESTINO_RECEBIMENTO_TRANSFERENCIA">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.PETROLEO_RECEBIDO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.PETROLEO_TRANSFERIDO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.GAS_RECEBIDO_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.GAS_TRANSFERIDO_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.AGUA_RECEBIDA_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.itemTransferenciaPapCampoType.AGUA_TRANSFERIDA_CAMPO">
+            <remarks/>
+        </member>
+        <member name="T:SmartSchool.API.Models.PROGRAMAS_ANUAIS_DE_PRODUCAO_CAMPO">
+            <remarks/>
+        </member>
+        <member name="P:SmartSchool.API.Models.PROGRAMAS_ANUAIS_DE_PRODUCAO_CAMPO.Item">
+            <remarks/>
+        </member>
+        <member name="M:SmartSchool.API.V1.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.API.V1.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um aluno por meio do código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoDto.Id">
+            <summary>
+            Identificador e chave do Banco
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoDto.Matricula">
+            <summary>
+            Chave do Aluno, para outros negócios na Instituição
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoDto.Nome">
+            <summary>
+            Nome e o Primeiro nome o o Sobrenome do Aluno
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoDto.Idade">
+            <summary>
+            Esta idade é o calculo relacionado a data de nascimento do Aluno
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoDto.Ativo">
+            <summary>
+            Ativar ou não o Aluno
+            </summary>
+        </member>
+        <member name="T:SmartSchool.API.V1.Dtos.AlunoRegistrarDto">
+            <summary>
+            Este é o DTO de Aluno para registrar
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoRegistrarDto.Id">
+            <summary>
+            Identificador e chave do Banco
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoRegistrarDto.Matricula">
+            <summary>
+            Chave do Aluno, para outros negócios na Instituição
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V1.Dtos.AlunoRegistrarDto.Nome">
+            <summary>
+            Nome e o Primeiro nome o o Sobrenome do Aluno
+            </summary>
+        </member>
+        <member name="M:SmartSchool.API.V2.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.API.V2.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um aluno por meio do código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoDto.Id">
+            <summary>
+            Identificador e chave do Banco
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoDto.Matricula">
+            <summary>
+            Chave do Aluno, para outros negócios na Instituição
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoDto.Nome">
+            <summary>
+            Nome e o Primeiro nome o o Sobrenome do Aluno
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoDto.Idade">
+            <summary>
+            Esta idade é o calculo relacionado a data de nascimento do Aluno
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoDto.Ativo">
+            <summary>
+            Ativar ou não o Aluno
+            </summary>
+        </member>
+        <member name="T:SmartSchool.API.V2.Dtos.AlunoRegistrarDto">
+            <summary>
+            Este é o DTO de Aluno para registrar
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoRegistrarDto.Id">
+            <summary>
+            Identificador e chave do Banco
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoRegistrarDto.Matricula">
+            <summary>
+            Chave do Aluno, para outros negócios na Instituição
+            </summary>
+        </member>
+        <member name="P:SmartSchool.API.V2.Dtos.AlunoRegistrarDto.Nome">
+            <summary>
+            Nome e o Primeiro nome o o Sobrenome do Aluno
+            </summary>
+        </member>
+    </members>
+</doc>
